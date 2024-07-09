@@ -5,6 +5,11 @@
     font-family:"Azeret Mono", monospace;
 }
 
+main{
+    width: 85%;
+    margin: 0 auto;
+}
+
  /*Header CSS*/
  nav{
     display:flex;
@@ -70,6 +75,70 @@
     padding: 21px 24px;   
     color: white;
 }
+
+
+/*FEATURE SECTION*/
+
+.feature_section{
+   background-color:  rgba(13, 19, 33, 0.02);
+   padding: 60px;
+   margin: 50px 0px;
+}
+.feature_content{
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+.feature_title{
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.feature_des{
+    font-size: 16px;
+     color:rgb(13, 19, 33,0.7);
+     line-height: 26px;
+     text-align: center;
+}
+
+.feature_box_one{
+    padding: 45px;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);  
+    display: flex;
+    align-items: center; 
+    justify-content: space-around;
+}
+
+
+.feature_one_title{
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 700;
+    color: rgba(13, 19, 33, 0.7);
+}
+.feature_one_des{
+    color: rgba(13, 19, 33, 0.7); 
+    font-size: 16px;
+    line-height: 26px;
+}
+.feature_one_btn{
+    font-size: 20px;
+    color: rgba(13, 19, 33, 0.7);
+    font-weight: 600;
+    padding: 12px 20px;
+    border: 1px soild  rgba(13, 19, 33, 0.7) ;
+    background: white;
+}
+.feaure_one_content, .feature_one_img{
+    width: 50%;
+}
+.feature_one_img{
+  text-align: center;
+}
+
+ 
 
 
 
