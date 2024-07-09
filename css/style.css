@@ -33,6 +33,43 @@
     background: #ffff;
 }
 
+/* HERO SECTION */
+
+.hero_section{
+    background-image:url(../assets/Hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 620px;
+    display: flex;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.hero_content {
+    text-align: center;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.hero_title{
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 68px;
+}
+.hero_des{
+    font-size: 16px;
+    font-weight: 400;
+    color:rgb(13, 19, 33,0.8);
+    line-height: 26px;
+}
+
+.hero_btn button{
+    font-size: 20px;
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    padding: 21px 24px;   
+    color: white;
+}
 
 
 
