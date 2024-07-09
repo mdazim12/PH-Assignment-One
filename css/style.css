@@ -3,6 +3,7 @@
 
 *{
     font-family:"Azeret Mono", monospace;
+   
 }
 
 main{
@@ -67,13 +68,16 @@ main{
     color:rgb(13, 19, 33,0.8);
     line-height: 26px;
 }
-
-.hero_btn button{
+.hero_btn {
+    margin-top: 30px;
+}
+.hero_btn a{
     font-size: 20px;
     border-radius: 8px;
     background: rgb(13, 19, 33);
     padding: 21px 24px;   
     color: white;
+    text-decoration: none;
 }
 
 
@@ -312,7 +316,81 @@ main{
     margin-left: 30px;
 }
 
+ /*CONTACT SECTION*/
 
+.contact_section{
+    border-radius: 16px;
+    background:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../assets/handshake.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 310px;
+    padding: 64px 48px;
+    display: flex;
+    align-items: center;
+    margin: 50px 0px;
+}
+
+.contact_content{
+    text-align: center;
+    width: 85%;
+    margin: 0 auto;
+}
+.contact_title{
+    color: white;
+    font-size: 32px;
+    line-height: 36px;
+    font-weight: 700;
+}
+
+.contact_des{
+    color:rgba(255, 255, 255, 0.7); 
+    font-size: 16px;
+    line-height: 26px;
+}
+input[type="text"]{
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    padding: 19px 20px;
+   display: inline-block;
+   color: rgba(13, 19, 33, 0.4);
+   font-size: 16px;
+   width: 530px;
+   
+}
+input[type="submit"]{
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    padding: 17px 20px;
+    border-radius: 8px;
+    background: white;
+    border: none;
+    
+}
+
+/*FOOTER*/
+
+footer{
+    background-color: rgba(13, 19, 33, 0.03);
+    
+}
+
+.footer_content{
+   
+    width: 85%;
+    margin: 0 auto;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.foo_text{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(13, 19, 33);
+}
 
     
 
