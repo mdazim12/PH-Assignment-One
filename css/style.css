@@ -155,7 +155,43 @@ main{
     width: 65%;
 }
 
+
+  /* INSPIRATION SECTION  CSS*/
+
+  .inspire_section{
+    text-align: center;
+    padding: 20px 0px;
+  }
+  .inpire_title{
+    color: #0D1321;
+    font-size: 32px;
+    font-weight: 800;
+  }
+  .inspire_des{
+    color:rgb(13, 19, 33,0.7);
+    font-size: 16px;
+    line-height: 26px;
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+.inspire_video{
+    margin: 50px 0px;
+    padding: 20px;
+    width: 1076px;
+    margin: auto;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+}
  
+.inspire_video_link{
+    border-radius: 16px;
+    margin: 10px;
+    text-align: center;
+    margin: 0 auto;
+}
+
 
 
 
