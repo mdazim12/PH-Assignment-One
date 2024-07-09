@@ -3,7 +3,7 @@
 
 *{
     font-family:"Azeret Mono", monospace;
-   
+    scroll-behavior: smooth;
 }
 
 main{
